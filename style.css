@@ -607,7 +607,7 @@ ul {
   font-size: 60px;
   font-weight: 800;
   line-height: 1;
-  color: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.22);
   margin-bottom: 8px;
   letter-spacing: -0.03em;
 }
@@ -647,11 +647,12 @@ ul {
 
 .cta-band__text .section-title {
   font-size: clamp(28px, 3.5vw, 46px);
+  color: var(--white);
 }
 
 .cta-band__text .section-body {
   margin-top: 12px;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.9);
   font-size: 16px;
 }
 
