@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -100,7 +100,8 @@
 
         <!-- FORM -->
         <div class="quote-form-section">
-          <form id="quote-form" novalidate>
+          <form id="quote-form" name="quote" netlify enctype="multipart/form-data">
+            <input type="hidden" name="form-name" value="quote" />
 
             <!-- CONTACT INFO -->
             <div class="form-section-title">Your Contact Information</div>
